@@ -19,7 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -48,7 +48,9 @@ table {
   border-spacing: 0;
 }
 
-
+/* !CSS RESET */
+/* prefix declarations */
+/* THEME STYLES */
 #sequence {
   position: relative;
   min-height: 630px;
@@ -374,7 +376,7 @@ table {
 }
 #sequence .animate-in .monster{
   left: 10%;
-  top: 150px;
+  top: 200px;
   -webkit-transition-duration: 4s;
   -moz-transition-duration: 4s;
   -ms-transition-duration: 4s;
@@ -423,7 +425,7 @@ table {
   transition-duration: 4s;
   z-index: 4;
 }
-#sequence .animate-out .jason {
+#sequence .animate-out .jason{ {
   left: 250%;
   top: -50px;
   z-index: 2;
@@ -432,4 +434,45 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
+}
+#sequence .group{
+  left: -50%;
+  max-width: 40%;
+  top: 700px;
+  z-index: 6;
+  -webkit-transition-property: left top -webkit-transform;
+  -moz-transition-property: left top -moz-transform;
+  -o-transition-property: left top -o-transform;
+  -ms-transition-property: left top -ms-transform;
+  transition-property: left top transform;
+}
+#sequence .animate-in .group{
+  left: 10%;
+  top: 200px;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+  /*-webkit-transform: rotate(20deg);
+  -moz-transform: rotate(20deg);
+  -ms-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);*/
+  z-index: 4;
+}
+#sequence .animate-out .group{
+  left: 10%;
+  bottom: 265px;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+  /*-webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  -o-transform: rotate(40deg);
+  transform: rotate(40deg);
+  z-index: 2;*/
 }
