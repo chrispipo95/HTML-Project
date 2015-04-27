@@ -517,3 +517,34 @@ table {
   transform: rotate(40deg);
   z-index: 2;*/
 }
+#sequence .ring{
+  left: -130%;
+  top: 250px;
+  max-width: 40%;
+  z-index: 6;
+  -webkit-transition-property: left top;
+  -moz-transition-property: left top;
+  -ms-transition-property: left top;
+  -o-transition-property: left top;
+  transition-property: left top;
+}
+#sequence .animate-in .ring{
+  left: 15%;
+  top: 350px;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+  z-index: 4;
+}
+#sequence .animate-out .ring{
+  left: 250%;
+  top: -50px;
+  z-index: 2;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
+}
