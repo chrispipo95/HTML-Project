@@ -19,6 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -110,11 +111,11 @@ table {
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
-  -webkit-transition-duration: 0.4s;
-  -moz-transition-duration: 0.4s;
-  -ms-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -ms-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 #sequence h2 {
   font-size: 1.5em;
@@ -389,11 +390,11 @@ table {
 #sequence .animate-out .monster{
   left: 10%;
   bottom: 265px;
-  -webkit-transition-duration: 4s;
-  -moz-transition-duration: 4s;
-  -ms-transition-duration: 4s;
-  -o-transition-duration: 4s;
-  transition-duration: 4s;
+  -webkit-transition-duration: 5s;
+  -moz-transition-duration: 5s;
+  -ms-transition-duration: 5s;
+  -o-transition-duration: 5s;
+  transition-duration: 5s;
   /*-webkit-transform: rotate(40deg);
   -moz-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
