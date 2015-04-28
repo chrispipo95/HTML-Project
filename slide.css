@@ -19,7 +19,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-
+/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -48,7 +48,9 @@ table {
   border-spacing: 0;
 }
 
-
+/* !CSS RESET */
+/* prefix declarations */
+/* THEME STYLES */
 #sequence {
   position: relative;
   min-height: 695px;
@@ -390,11 +392,11 @@ table {
 #sequence .animate-out .monster{
   left: 10%;
   bottom: 265px;
-  -webkit-transition-duration: 5s;
-  -moz-transition-duration: 5s;
-  -ms-transition-duration: 5s;
-  -o-transition-duration: 5s;
-  transition-duration: 5s;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
   /*-webkit-transform: rotate(40deg);
   -moz-transform: rotate(40deg);
   -ms-transform: rotate(40deg);
@@ -540,9 +542,9 @@ table {
   left: 250%;
   top: -50px;
   z-index: 2;
-  -webkit-transition-duration: 5s;
-  -moz-transition-duration: 5s;
-  -ms-transition-duration: 5s;
-  -o-transition-duration: 5s;
-  transition-duration: 5s;
+  -webkit-transition-duration: 4s;
+  -moz-transition-duration: 4s;
+  -ms-transition-duration: 4s;
+  -o-transition-duration: 4s;
+  transition-duration: 4s;
 }
