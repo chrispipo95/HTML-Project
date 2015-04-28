@@ -489,8 +489,9 @@ table {
   -o-transition-duration: 4s;
   transition-duration: 4s;
 }
-#sequence .audio{
+/*#sequence .audio{
   position:absolute;
 	top: 250px;
 	left: 400px;
 }
+*/
