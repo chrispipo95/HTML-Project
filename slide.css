@@ -19,7 +19,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -47,10 +46,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* !CSS RESET */
-/* prefix declarations */
-/* THEME STYLES */
 #sequence {
   position: relative;
   min-height: 695px;
@@ -211,11 +206,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);*/
   z-index: 4;
 }
 #sequence .animate-out .saw{
@@ -226,12 +216,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-  z-index: 2;*/
 }
 #sequence .sky {
   height: 100%;
@@ -296,11 +280,6 @@ table {
   -ms-transform-origin: 100%;
   -o-transform-origin: 100%;
   transform-origin: 100%;
-  /*-webkit-transform: rotate(80deg);
-  -moz-transform: rotate(80deg);
-  -ms-transform: rotate(80deg);
-  -o-transform: rotate(80deg);
-  transform: rotate(80deg);*/
   -webkit-transition-duration: 4s;
   -moz-transition-duration: 4s;
   -ms-transition-duration: 4s;
@@ -317,11 +296,6 @@ table {
   -ms-transform-origin: 100%;
   -o-transform-origin: 100%;
   transform-origin: 100%;
- /* -webkit-transform: rotate(200deg);
-  -moz-transform: rotate(200deg);
-  -ms-transform: rotate(200deg);
-  -o-transform: rotate(200deg);
-  transform: rotate(200deg);*/
   -webkit-transition-duration: 3s;
   -moz-transition-duration: 3s;
   -ms-transition-duration: 3s;
@@ -382,11 +356,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);*/
   z-index: 4;
 }
 #sequence .animate-out .monster{
@@ -397,12 +366,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-  z-index: 2;*/
 }
 #sequence .jason{
   left: -130%;
@@ -454,11 +417,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);*/
   z-index: 4;
 }
 #sequence .animate-out .scream{
@@ -469,12 +427,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-  z-index: 2;*/
 }
 #sequence .group{
   left: -50%;
@@ -495,11 +447,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(20deg);
-  -moz-transform: rotate(20deg);
-  -ms-transform: rotate(20deg);
-  -o-transform: rotate(20deg);
-  transform: rotate(20deg);*/
   z-index: 4;
 }
 #sequence .animate-out .group{
@@ -510,12 +457,6 @@ table {
   -ms-transition-duration: 4s;
   -o-transition-duration: 4s;
   transition-duration: 4s;
-  /*-webkit-transform: rotate(40deg);
-  -moz-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  -o-transform: rotate(40deg);
-  transform: rotate(40deg);
-  z-index: 2;*/
 }
 #sequence .ring{
   left: -130%;
