@@ -495,4 +495,6 @@ table {
   visibility:hidden;
   overflow:hidden;
 }
-
+a{
+  color:red;
+}
